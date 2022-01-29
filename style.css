@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+.search{
+    margin: 40px;
+    float: right;
+}
+button {
+    border: none;
+    background: transparent;
+}
+button:hover{
+    filter: invert();
+    cursor: pointer;
+}
+.search-bar{
+    border: none;
+    padding-left: 15px;
+    padding-right: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    margin: 0px;
+}
+.line{
+    margin: 12px;
+    width: 235px;
+}
+
+hr{
+    width: 415px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    cursor: default;
+     
+}
+.city{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
+}
+.temp{
+    font-size: 45px;
+}
+.details{
+    margin: 20px;
+    font-size: 32px;
+}
+div img{
+    display: block;
+    /* height: 10vh; */
+}
+.wind{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.desp{
+    font-size: 30px;
+}
+.card.loading{
+    visibility: hidden;
+    position: relative;
+}
+.card.loading:after{
+    visibility: visible;
+    content: "Loading....";
+    color: whitesmoke;
+    position: absolute;
+    top: 0;
+}
+input::placeholder{
+    color: whitesmoke;
+}
+input{
+   outline: none;
+}
