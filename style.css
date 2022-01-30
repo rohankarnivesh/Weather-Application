@@ -112,6 +112,6 @@ input{
         align-items: center;
     }
     body{
-        background: center url(./media/phone2.jpg);
+        background: top url(./media/phone2.jpg);
     }
 }
