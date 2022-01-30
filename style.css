@@ -112,6 +112,9 @@ input{
         align-items: center;
     }
     body{
-        background: top url(./media/phone2.jpg);
+        background: url(./media/phone2.jpg);
+        background-size: 160%;
+        background-repeat: no-repeat;
+        background-position: center; 
     }
 }
