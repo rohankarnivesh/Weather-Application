@@ -8,6 +8,12 @@
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+}
 .search{
     margin: 40px;
     float: right;
@@ -89,6 +95,7 @@ input::placeholder{
 input{
    outline: none;
 }
+
 
 @media only screen and (max-width:520px){
     .city{
